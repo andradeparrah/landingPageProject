@@ -350,3 +350,23 @@ input[type=text], input[type=password] {
     float: left;
     padding-top: 16px;
   }
+
+  @media screen and (max-width:1020px) {
+    .banner{
+        width: 1020px;
+  }
+}
+
+@media screen and (max-width:720px) {
+    .gridContainerThree {
+        display: grid;
+        grid-template-columns: 300px 300px ;
+        grid-template-rows: 100px ;
+        color: white;
+        padding: 80px 150px;
+        line-height: 40px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+}
