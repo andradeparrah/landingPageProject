@@ -23,31 +23,30 @@ nav div a img:hover{
 }
 
 header h1 {
-    padding: 40px 80px;
+    padding: 80px 200px;
     color: white;
-    font-size: 36px;
-    font-size: 800;
-
+    font-size: 38px;
 }
 
-h2{
-    padding-left: 150px;
-    color: wheat;
+header h2{
+    padding-top: 200px;
+    padding-left: 250px;
+    color: white;
 }
 
 h2 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-h3{
-    padding-left: 150px;
-    color: red;
+header h3{
+    padding-left: 300px;
+    color: white;
 }
 
 h3 img{
-    height: 40px;
-    width: 80px;
+    height: 60px;
+    width: 120px;
     padding-top: 20px;
 }
 
@@ -76,8 +75,12 @@ h3 img{
 }
 
 @keyframes banner {
-    0%, 100%{
+    0%, 50%{
         background-image: url(../assets/BannerThree.jpeg);
+    }
+
+    50%, 100%{
+        background-image: url(../assets/BannerFour.jpeg);
     }
 }
 
@@ -156,7 +159,7 @@ ul{
 }
 
 .terms {
-    text-align: center;
+    margin-left: 40px;
     font-size: 12px;
     width: 240px;
     color: rgb(83, 83, 83);
