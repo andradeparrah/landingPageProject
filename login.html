@@ -12,17 +12,43 @@
     
 </head>
 <body>
-    <header class="banner">
-        <nav class="navbar">
-        <div class="logo">
-            <a href="./index.html"><img src="./assets/carvuklogo.svg" alt="carvuk"></a>
-        </div> 
-            <ul>
-                <li><a href="./index.html">Servicios</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="./login.html">Ingresa</a></li>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="./assets/carvuklogo.svg" alt=""> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">Servicios</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contactanos</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="login.html">Ingresa a tu Cuenta</a></li>
+                  <li><a class="dropdown-item" href="#">WhatsApp</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="https://carvuk.notion.site/Trabaja-en-Carvuk-como-Driver-b30e14c6a3414af898814f27982ff1c7">Trabaja como Drive</a></li>
+                  <li><a class="dropdown-item" href="#">Trabaja con nosotros</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">¿Estas pagando el mejor precio de tu seguro?</a>
+              </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Ingresa tu patente" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Cotiza</button>
+            </form>
+            </div>
+        </div>
         </nav>
+
+    <header class="banner">
 
         <form>     
             <div class="container">
@@ -31,8 +57,8 @@
           
               <label for="psw"><b>Contraseña</b></label>
               <input type="password" placeholder="Contraseña" name="psw" required>
+              <button type="submit" class="joinbtn">Ingresar</button>
               <button type="button" class="cancelbtn">Cancelar</button>
-              <button type="submit">Ingresar</button>
             </div>
           
             <div class="container">

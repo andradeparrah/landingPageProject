@@ -17,14 +17,14 @@ nav div a img:hover{
 }
 
 .banner {
-    height: 700px;
+    height: 650px;
     animation: banner 10s infinite linear alternate;
     background-size: 100% 100%;
 }
 
 header h1 {
     padding: 40px 80px;
-    color: white;font-size: 36px;
+    color: white;
     font-size: 36px;
     font-size: 800;
 
@@ -278,6 +278,9 @@ label p{
     font-size: 12px;
 }
 
+.header {
+    text-align: center;
+}
 
 input[type=text], input[type=password] {
     width: 10%;
@@ -286,10 +289,10 @@ input[type=text], input[type=password] {
     display: block;
     border: 1px solid #ccc;
     border-radius: 8px;
-
+    text-align: center;
   }
 
-.buttons {
+.button {
     background-color: rgb(79, 70, 229);
     color: white;
     padding: 14px 20px;
@@ -311,18 +314,41 @@ input[type=text], input[type=password] {
     border: none;
     cursor: pointer;
     width: auto;
+    background-color: rgb(110, 52, 211);
+    border-radius: 10px;
+  }
+
+  .joinbtn {
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
     background-color: rgb(52, 211, 153);
     border-radius: 10px;
   }
+
   
-  .container {
+  
+.container {
     padding: 16px;
-    text-align: center;
+    text-align: left;
 
   }
   
-  span.psw {
-    float: left;
-    padding-top: 16px;
-  }
+.psw {
+    color: rgb(110, 52, 211);
+    font-size: 18px;
+    text-align: right;
+}
+
+.psw a{
+    text-decoration: none;
+    color:rgb(52, 211, 153) ;
+}
+
+form div label {
+    color: white;
+}
 
